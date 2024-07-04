@@ -1,9 +1,11 @@
 import Navbar from '/app/component/nav';
+import Footer from '/app/footer/footer';
 
 export default function about() {
     return (
       <>
       <Navbar />
+
       <p class="fs-1"> About </p>
       <br />
       <br />
@@ -46,6 +48,7 @@ export default function about() {
             </div>
         </div>
     </div>
+    <Footer />
       </>
     );
   }

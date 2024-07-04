@@ -1,4 +1,5 @@
 import Navbar from '/app/component/nav';
+import Footer from '/app/footer/footer';
 
 export default function About() {
   return (
@@ -51,6 +52,7 @@ export default function About() {
              the appropriate navigation link is highlighted. It's repeated throughout the component example.
               We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
       </div>
+      <Footer />
     </>
   );
 }

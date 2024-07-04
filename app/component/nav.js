@@ -10,7 +10,7 @@ export default function Nav() {
               <nav className="navbar navbar-expand-md">
 
       <a className="navbar-brand">
-        <img src="/img/1.png" alt="" width="50" height="30" />
+        <img src="/img/1.png" alt="" width="50" height="30" /> อันนี้คือโลโก้
       </a>
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
