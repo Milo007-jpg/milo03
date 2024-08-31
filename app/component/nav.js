@@ -19,21 +19,25 @@ export default function Nav() {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
-                      <Link href="/" className="nav-link px-2 link-secondary">Home</Link>
+                      <Link href="/" className="nav-link px-2 link-secondary">หน้าแรก</Link>
                     </li>
                     <li className="nav-item">
-                      <Link href="/about" className="nav-link px-2">About</Link>
+                      <Link href="/about" className="nav-link px-2">เกี่ยวกับเรา</Link>
                     </li>
                     <li className="nav-item">
-                      <Link href="/Service" className="nav-link px-2">Service</Link>
+                      <Link href="/Service" className="nav-link px-2">บริการของเรา</Link>
                     </li>
                     <li className="nav-item">
-                      <Link href="/Contact" className="nav-link px-2">Contact</Link>
+                      <Link href="/Contact" className="nav-link px-2">ติดต่อเรา</Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="/user" className="nav-link px-2">จัดการสมาชิก</Link>
                     </li>
                   </ul>
                   <div className="d-flex ms-md-3">
-                    <button type="button" className="btn btn-outline-primary me-2">Sign-up</button>
-                    <Link href="/user"><button  type="button" className="btn btn-primary">Login</button></Link>
+                    <Link href="/signup" type="button" className="btn btn-outline-primary me-2">Sign-up</Link>
+                    <button  type="button" className="btn btn-primary">Login</button>
+                    <Link href="/login" type="button" className="btn btn-outline-primary me-2">Login</Link>
                   </div>
                 </div>
               </nav>
