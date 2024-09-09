@@ -35,7 +35,7 @@ export default function LoginPage() {
                 const data = await res.json();
                 localStorage.setItem('token', data.token);  // เก็บ JWT token ใน localStorage
                 setUser({ username: data.username, status: data.status });  // เก็บข้อมูลผู้ใช้ใน state
-                router.push('/user/login');  // นำผู้ใช้ไปที่หน้า User หลังจากเข้าสู่ระบบสำเร็จ
+                router.push('/user');  // นำผู้ใช้ไปที่หน้า User หลังจากเข้าสู่ระบบสำเร็จ
             } else {
                 setErrorMessage('Invalid username or password');  // ข้อความแจ้งข้อผิดพลาด
             }
