@@ -1,5 +1,5 @@
 import Navbar from '../app/component/nav';
-import Footer from '../app/footer/footer';
+import Footer from '../footer/footer';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
