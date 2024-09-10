@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import Navbar from '/app/component/nav';
-import Footer from '/app/Footer/footer';
+import Footer from '/app/footer/footer';
 export default function Page({params}) {
 const {id} = params;
 

@@ -1,6 +1,6 @@
 'use client';
 import Navbar from '/app/component/nav';
-import Footer from '/app/Footer/footer';
+import Footer from '/app/footer/footer';
 import Link from 'next/link'
 
 import { useEffect, useState } from 'react';
