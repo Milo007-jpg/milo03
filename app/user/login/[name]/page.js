@@ -2,8 +2,8 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import Navbar from '../component/nav'; // ปรับเส้นทางให้ตรงกับที่เก็บไฟล์
-import Footer from '../footer/footer'; // ปรับเส้นทางให้ตรงกับที่เก็บไฟล์
+import Navbar from '/app/component/nav'; // ปรับเส้นทางให้ตรงกับที่เก็บไฟล์
+import Footer from '/app/footer/footer'; // ปรับเส้นทางให้ตรงกับที่เก็บไฟล์
 
 export default function UserPage() {
     const [loading, setLoading] = useState(true);
