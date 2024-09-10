@@ -26,7 +26,7 @@ export default function Nav() {
                       <Link href="/about" className="nav-link px-2">เกี่ยวกับเรา</Link>
                     </li>
                     <li className="nav-item">
-                      <Link href="/Servicee" className="nav-link px-2">บริการของเรา</Link>
+                      <Link href="/Service" className="nav-link px-2">บริการของเรา</Link>
                     </li>
                     <li className="nav-item">
                       <Link href="/Contact" className="nav-link px-2">ติดต่อเรา</Link>
